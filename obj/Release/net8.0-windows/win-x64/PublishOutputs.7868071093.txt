@@ -1,0 +1,4 @@
+D:\CAD_Utiliity\CAD_withDB_Service_Testing\bin\Release\net8.0-windows\win-x64\publish\appsettings.json
+D:\CAD_Utiliity\CAD_withDB_Service_Testing\bin\Release\net8.0-windows\win-x64\publish\CadProcessorService.pdb
+D:\CAD_Utiliity\CAD_withDB_Service_Testing\bin\Release\net8.0-windows\win-x64\publish\sni.dll
+D:\CAD_Utiliity\CAD_withDB_Service_Testing\bin\Release\net8.0-windows\win-x64\publish\CadProcessorService.exe

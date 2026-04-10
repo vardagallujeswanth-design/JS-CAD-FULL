@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\services\\xmlprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:services\\xmlprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\infrastructure\\databaseexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:infrastructure\\databaseexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\services\\legacyvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:services\\legacyvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\services\\legacyimportlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:services\\legacyimportlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbfolderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbfolderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\cadprocessingoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\cadprocessingoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbcallerrulecategoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbcallerrulecategoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbretryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbretryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbprocedureconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbprocedureconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbproviderfieldrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbproviderfieldrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbproviderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbproviderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\models\\dbemailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:models\\dbemailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|c:\\vardagallu_jeswanth\\cad_newv\\cad_newv\\cad_sourcecode_v1\\parallelpipelineexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5316057-2937-2565-793B-ABA632F38FEB}|CadProcessorService.csproj|solutionrelative:parallelpipelineexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbFolderConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbFolderConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbFolderConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbFolderConfig.cs",
+              "RelativeToolTip": "Models\\DbFolderConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T05:34:52.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbRetryConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbRetryConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbRetryConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbRetryConfig.cs",
+              "RelativeToolTip": "Models\\DbRetryConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T05:34:43.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Helpers\\FileHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileHelper.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Helpers\\FileHelper.cs",
+              "RelativeToolTip": "Helpers\\FileHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:29:19.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbCallerRuleCategoryConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbCallerRuleCategoryConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbCallerRuleCategoryConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbCallerRuleCategoryConfig.cs",
+              "RelativeToolTip": "Models\\DbCallerRuleCategoryConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T09:25:23.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-10T13:35:52.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbProcedureConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProcedureConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbProcedureConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProcedureConfig.cs",
+              "RelativeToolTip": "Models\\DbProcedureConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T07:04:06.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbProviderFieldRule.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProviderFieldRule.cs",
+              "RelativeDocumentMoniker": "Models\\DbProviderFieldRule.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProviderFieldRule.cs",
+              "RelativeToolTip": "Models\\DbProviderFieldRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T07:03:57.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbProviderConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProviderConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbProviderConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbProviderConfig.cs",
+              "RelativeToolTip": "Models\\DbProviderConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:32:07.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbEmailConfig.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbEmailConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DbEmailConfig.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\DbEmailConfig.cs",
+              "RelativeToolTip": "Models\\DbEmailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:21:35.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CadProcessingOptions.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\CadProcessingOptions.cs",
+              "RelativeDocumentMoniker": "Models\\CadProcessingOptions.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Models\\CadProcessingOptions.cs",
+              "RelativeToolTip": "Models\\CadProcessingOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:20:14.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParallelPipelineExample.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\ParallelPipelineExample.cs",
+              "RelativeDocumentMoniker": "ParallelPipelineExample.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\ParallelPipelineExample.cs",
+              "RelativeToolTip": "ParallelPipelineExample.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:49:30.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseExecutor.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Infrastructure\\DatabaseExecutor.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DatabaseExecutor.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Infrastructure\\DatabaseExecutor.cs",
+              "RelativeToolTip": "Infrastructure\\DatabaseExecutor.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAYwDoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:26:34.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XmlProcessingService.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\XmlProcessingService.cs",
+              "RelativeDocumentMoniker": "Services\\XmlProcessingService.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\XmlProcessingService.cs",
+              "RelativeToolTip": "Services\\XmlProcessingService.cs",
+              "ViewState": "AgIAAMMBAAAAAAAAAAAAwKgBAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:17.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:24.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LegacyImportLogger.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\LegacyImportLogger.cs",
+              "RelativeDocumentMoniker": "Services\\LegacyImportLogger.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\LegacyImportLogger.cs",
+              "RelativeToolTip": "Services\\LegacyImportLogger.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:23.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LegacyValidationService.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\LegacyValidationService.cs",
+              "RelativeDocumentMoniker": "Services\\LegacyValidationService.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\LegacyValidationService.cs",
+              "RelativeToolTip": "Services\\LegacyValidationService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwEYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:22.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\Worker.cs",
+              "RelativeDocumentMoniker": "Services\\Worker.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Services\\Worker.cs",
+              "RelativeToolTip": "Services\\Worker.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAIwIsBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:20.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV\\CAD_SourceCode_v1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:37:14.663Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

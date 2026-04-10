@@ -1,0 +1,271 @@
+2026-03-17 07:37:57.305 | INFORMATION | CadProcessorService.Services.Worker | Logging initialized to folder: true
+2026-03-17 07:37:57.314 | INFORMATION | CadProcessorService.Services.Worker | Cache refreshed. Providers=2, Retry=True
+2026-03-17 07:37:57.316 | INFORMATION | CadProcessorService.Services.Worker | Processing providers. Count=2
+2026-03-17 07:37:57.318 | INFORMATION | CadProcessorService.Services.Worker | Processing mode: Parallel
+2026-03-17 07:37:57.323 | INFORMATION | CadProcessorService.Services.Worker | Found 3 files for provider HSCO
+2026-03-17 07:37:57.332 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Starting PARALLEL XML pipeline with 4 workers
+2026-03-17 07:37:57.334 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: Sample3.xml
+2026-03-17 07:37:57.334 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: Sample4.xml
+2026-03-17 07:37:57.334 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: Sample2.xml
+2026-03-17 07:37:57.335 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Parallel worker 3 started
+2026-03-17 07:37:57.335 | INFORMATION | CadProcessorService.Services.Worker | Found 3 files for provider TYLER_CAD
+2026-03-17 07:37:57.335 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Parallel worker 2 started
+2026-03-17 07:37:57.336 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 3 processing: Sample3.xml
+2026-03-17 07:37:57.335 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Parallel worker 1 started
+2026-03-17 07:37:57.336 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 1 processing: Sample2.xml
+2026-03-17 07:37:57.337 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\HSCO\Inbound\Sample2.xml
+2026-03-17 07:37:57.336 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\HSCO\Inbound\Sample3.xml
+2026-03-17 07:37:57.336 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 2 processing: Sample4.xml
+2026-03-17 07:37:57.337 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: test2.xml
+2026-03-17 07:37:57.338 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: test.xml
+2026-03-17 07:37:57.338 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Enqueued file for parallel processing: test1.xml
+2026-03-17 07:37:57.338 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Parallel worker 4 started
+2026-03-17 07:37:57.338 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 4 processing: test2.xml
+2026-03-17 07:37:57.339 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\TYLER_CAD\Inbound\test2.xml
+2026-03-17 07:37:57.337 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\HSCO\Inbound\Sample4.xml
+2026-03-17 07:37:57.365 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded cache for ProviderId=2, Procedures=3
+2026-03-17 07:37:57.365 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded cache for ProviderId=1, Procedures=3
+2026-03-17 07:37:57.368 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule category configs: [NodeLocator, Phone, FullName, FirstName, LastName]
+2026-03-17 07:37:57.368 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule category configs: [NodeLocator, Phone, FullName, FirstName, LastName]
+2026-03-17 07:37:57.477 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.477 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.479 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.479 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.479 | WARNING | CadProcessorService.Services.XmlProcessingService | No caller nodes found for XPath: //CallerDetails
+2026-03-17 07:37:57.479 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 caller node(s) using XPath: //CallerDetails
+2026-03-17 07:37:57.479 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 5
+2026-03-17 07:37:57.480 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 6
+2026-03-17 07:37:57.482 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JAI | Last: BOB | Full: JAI BOB | Phone: 5656334454
+2026-03-17 07:37:57.482 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: BOAT | Last: MOUSE | Full: BOAT MAD MOUSE | Phone: 1111111111
+2026-03-17 07:37:57.501 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.501 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.502 | WARNING | CadProcessorService.Services.XmlProcessingService | No caller nodes found for XPath: //CallerDetails
+2026-03-17 07:37:57.502 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 5
+2026-03-17 07:37:57.502 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JAI | Last: BOB | Full: JAI BOB | Phone: 5656334454
+2026-03-17 07:37:57.504 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.504 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.505 | WARNING | CadProcessorService.Services.XmlProcessingService | No caller nodes found for XPath: //CallerDetails
+2026-03-17 07:37:57.505 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 5
+2026-03-17 07:37:57.505 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JAI | Last: BOB | Full: JAI BOB | Phone: 5656334454
+2026-03-17 07:37:57.509 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: joe | Last: host | Full: joe host | Phone: 3333333333
+2026-03-17 07:37:57.509 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT TOCK MEOW | Phone: 9988776651
+2026-03-17 07:37:57.509 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT TOCK MEOW | Phone: 9988776651
+2026-03-17 07:37:57.510 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT TOCK MEOW | Phone: 9988776651
+2026-03-17 07:37:57.511 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHN | Last: BELL | Full: JOHN JINGLE BELL | Phone: 6666666666
+2026-03-17 07:37:57.511 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: MILL | Last: SMITH | Full: MILL SMITH | Phone: 7666335635
+2026-03-17 07:37:57.511 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: MILL | Last: SMITH | Full: MILL SMITH | Phone: 7666335635
+2026-03-17 07:37:57.513 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: MILL | Last: SMITH | Full: MILL SMITH | Phone: 7666335635
+2026-03-17 07:37:57.514 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT MEOW | Phone: 6519988776
+2026-03-17 07:37:57.514 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: toe | Last: tic | Full: toe tic | Phone: 9999999999
+2026-03-17 07:37:57.515 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT MEOW | Phone: 6519988776
+2026-03-17 07:37:57.516 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHNT | Last: MEOW | Full: JOHNT MEOW | Phone: 6519988776
+2026-03-17 07:37:57.517 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: Normal | Last: Fun | Full: Normal , Fun | Phone: 8888888888
+2026-03-17 07:37:57.518 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: DAVID | Last: BOB | Full: DAVID BOB | Phone: 3344545656
+2026-03-17 07:37:57.518 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: DAVID | Last: BOB | Full: DAVID BOB | Phone: 3344545656
+2026-03-17 07:37:57.518 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: DAVID | Last: BOB | Full: DAVID BOB | Phone: 3344545656
+2026-03-17 07:37:57.519 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: windows | Last: sUNNY | Full: windows sUNNY | Phone: 2222222222
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5238
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5240
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5239
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5237
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=3, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=3, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.522 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=3, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.523 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=6, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.523 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.523 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.523 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.524 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.524 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.524 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.525 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.525 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=10, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.525 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=10, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.526 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2008, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.526 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2009, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.525 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=23, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.526 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2008, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.527 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2009, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.527 | WARNING | CadProcessorService.Services.XmlProcessingService | No nodes found for XPath: //PrimaryOfficer
+2026-03-17 07:37:57.527 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2010, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.527 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 officer node(s)
+2026-03-17 07:37:57.524 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.528 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=10, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.528 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2008, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.529 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2009, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.528 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2011, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.529 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 officer node(s)
+2026-03-17 07:37:57.529 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 officer node(s)
+2026-03-17 07:37:57.536 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Chris', LastName='Woakes', FullName='Chris Woakes'
+2026-03-17 07:37:57.536 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Chris', LastName='Woakes', FullName='Chris Woakes'
+2026-03-17 07:37:57.536 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Chris', LastName='Woakes', FullName='Chris Woakes'
+2026-03-17 07:37:57.538 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Chris, Woakes'
+2026-03-17 07:37:57.538 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Chris, Woakes'
+2026-03-17 07:37:57.538 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Chris, Woakes' (IsPrimary=True)
+2026-03-17 07:37:57.536 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 personnel node(s)
+2026-03-17 07:37:57.538 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Chris, Woakes' (IsPrimary=True)
+2026-03-17 07:37:57.538 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Chris, Woakes'
+2026-03-17 07:37:57.539 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Tweet', FullName='Tweet , Mee'
+2026-03-17 07:37:57.540 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tweet , Mee' (IsPrimary=True)
+2026-03-17 07:37:57.539 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Chris, Woakes' (IsPrimary=True)
+2026-03-17 07:37:57.554 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1020
+2026-03-17 07:37:57.554 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=2
+2026-03-17 07:37:57.554 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=2
+2026-03-17 07:37:57.554 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=2
+2026-03-17 07:37:57.563 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1020, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.563 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=2, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.563 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=2, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.564 | WARNING | CadProcessorService.Services.XmlProcessingService | No personnel nodes found for XPath: //Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.564 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.564 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.565 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Tweet', FullName='Tweet , Mee'
+2026-03-17 07:37:57.565 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Tweet', FullName='Tweet , Mee'
+2026-03-17 07:37:57.565 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tweet , Mee' (IsPrimary=False)
+2026-03-17 07:37:57.565 | WARNING | CadProcessorService.Services.XmlProcessingService | Skipping duplicate officer: Tweet , Mee
+2026-03-17 07:37:57.565 | WARNING | CadProcessorService.Services.XmlProcessingService | No personnel nodes found for XPath: //Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.566 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=2, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.566 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Meet', FullName='Meet , Mee'
+2026-03-17 07:37:57.566 | WARNING | CadProcessorService.Services.XmlProcessingService | No personnel nodes found for XPath: //Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.566 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.566 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Meet , Mee' (IsPrimary=False)
+2026-03-17 07:37:57.566 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.567 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Boy', LastName='Tom', FullName='Tom , Boy'
+2026-03-17 07:37:57.567 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Tweet', FullName='Tweet , Mee'
+2026-03-17 07:37:57.567 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tom , Boy' (IsPrimary=False)
+2026-03-17 07:37:57.568 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tweet , Mee' (IsPrimary=False)
+2026-03-17 07:37:57.569 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1019
+2026-03-17 07:37:57.569 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1020
+2026-03-17 07:37:57.570 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1020
+2026-03-17 07:37:57.570 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1023
+2026-03-17 07:37:57.572 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1019, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.572 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Bell', LastName='Dumb', FullName='Dumb , Bell'
+2026-03-17 07:37:57.573 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Dumb , Bell' (IsPrimary=False)
+2026-03-17 07:37:57.573 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1021
+2026-03-17 07:37:57.575 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1020, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.576 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Meet', FullName='Meet , Mee'
+2026-03-17 07:37:57.576 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Meet , Mee' (IsPrimary=False)
+2026-03-17 07:37:57.578 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1019
+2026-03-17 07:37:57.581 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1023, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.581 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Brow', LastName='Well', FullName='Well, Brow'
+2026-03-17 07:37:57.581 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Well, Brow' (IsPrimary=False)
+2026-03-17 07:37:57.583 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1022
+2026-03-17 07:37:57.584 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1021, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.584 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.584 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 3
+2026-03-17 07:37:57.590 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1020, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.590 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Mee', LastName='Meet', FullName='Meet , Mee'
+2026-03-17 07:37:57.590 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Meet , Mee' (IsPrimary=False)
+2026-03-17 07:37:57.592 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1022, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.592 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1019
+2026-03-17 07:37:57.592 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Cat', LastName='Bro', FullName='Cat Bro'
+2026-03-17 07:37:57.593 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Cat, Bro'
+2026-03-17 07:37:57.593 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Cat, Bro' (IsPrimary=False)
+2026-03-17 07:37:57.595 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1024
+2026-03-17 07:37:57.600 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1019, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.600 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Bell', LastName='Dumb', FullName='Dumb , Bell'
+2026-03-17 07:37:57.601 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Dumb , Bell' (IsPrimary=False)
+2026-03-17 07:37:57.602 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1021
+2026-03-17 07:37:57.603 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1024, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.604 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.604 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 4
+2026-03-17 07:37:57.610 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1019, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.610 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Bell', LastName='Dumb', FullName='Dumb , Bell'
+2026-03-17 07:37:57.610 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Dumb , Bell' (IsPrimary=False)
+2026-03-17 07:37:57.612 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1021
+2026-03-17 07:37:57.613 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1021, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.613 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.613 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 4
+2026-03-17 07:37:57.616 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1021, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.616 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.616 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 4
+2026-03-17 07:37:57.623 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 4 completed: test2.xml
+2026-03-17 07:37:57.624 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 4 processing: test.xml
+2026-03-17 07:37:57.624 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\TYLER_CAD\Inbound\test.xml
+2026-03-17 07:37:57.624 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 1 completed: Sample2.xml
+2026-03-17 07:37:57.624 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 1 processing: test1.xml
+2026-03-17 07:37:57.625 | INFORMATION | CadProcessorService.Services.Worker | Processing file C:\Jeswanth\CAD\TYLER_CAD\Inbound\test1.xml
+2026-03-17 07:37:57.639 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 2 completed: Sample4.xml
+2026-03-17 07:37:57.639 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 3 completed: Sample3.xml
+2026-03-17 07:37:57.646 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.646 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.647 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 caller node(s) using XPath: //CallerDetails
+2026-03-17 07:37:57.647 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 6
+2026-03-17 07:37:57.647 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: BOAT | Last: MOUSE | Full: BOAT MAD MOUSE | Phone: 1111111111
+2026-03-17 07:37:57.649 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Loaded 5 caller rule categories: [CallerNode, FullName, FirstName, LastName, CallerPhone]
+2026-03-17 07:37:57.649 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 5 caller node(s) using XPath: //Caller
+2026-03-17 07:37:57.650 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 caller node(s) using XPath: //CallerDetails
+2026-03-17 07:37:57.650 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total caller nodes found: 6
+2026-03-17 07:37:57.650 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: BOAT | Last: MOUSE | Full: BOAT MAD MOUSE | Phone: 1111111111
+2026-03-17 07:37:57.655 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: joe | Last: host | Full: joe host | Phone: 3333333333
+2026-03-17 07:37:57.656 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: joe | Last: host | Full: joe host | Phone: 3333333333
+2026-03-17 07:37:57.660 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHN | Last: BELL | Full: JOHN JINGLE BELL | Phone: 6666666666
+2026-03-17 07:37:57.660 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: JOHN | Last: BELL | Full: JOHN JINGLE BELL | Phone: 6666666666
+2026-03-17 07:37:57.663 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: toe | Last: tic | Full: toe tic | Phone: 9999999999
+2026-03-17 07:37:57.664 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: toe | Last: tic | Full: toe tic | Phone: 9999999999
+2026-03-17 07:37:57.667 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: Normal | Last: Fun | Full: Normal , Fun | Phone: 8888888888
+2026-03-17 07:37:57.667 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: Normal | Last: Fun | Full: Normal , Fun | Phone: 8888888888
+2026-03-17 07:37:57.668 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: windows | Last: sUNNY | Full: windows sUNNY | Phone: 2222222222
+2026-03-17 07:37:57.668 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting caller — First: windows | Last: sUNNY | Full: windows sUNNY | Phone: 2222222222
+2026-03-17 07:37:57.670 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5242
+2026-03-17 07:37:57.670 | INFORMATION | CadProcessorService.Services.XmlProcessingService | STARTING OFFICER INSERTION FOR CallID=5241
+2026-03-17 07:37:57.670 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=6, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.670 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found officer procedure: ProcedureId=6, ProcedureName=CAD_CallOfficerDetailInsert
+2026-03-17 07:37:57.671 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.671 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total rules in cache for this procedure: 3
+2026-03-17 07:37:57.671 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.671 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=23, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.671 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Active officer rules found: 3
+2026-03-17 07:37:57.672 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2010, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.672 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #1: RuleId=23, Parameter=PrimaryOfficer, Type=XPath, XPath=//PrimaryOfficer
+2026-03-17 07:37:57.672 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2011, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.672 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #2: RuleId=2010, Parameter=PrimaryOfficer, Type=XPathConditional, XPath=//Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.672 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 officer node(s)
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Rule #3: RuleId=2011, Parameter=OtherOfficer, Type=XPath, XPath=//Officer
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Chris', LastName='Woakes', FullName='Chris Woakes'
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 1 officer node(s)
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Chris, Woakes'
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Chris', LastName='Woakes', FullName='Chris Woakes'
+2026-03-17 07:37:57.673 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Chris, Woakes' (IsPrimary=True)
+2026-03-17 07:37:57.674 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Chris, Woakes'
+2026-03-17 07:37:57.674 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Chris, Woakes' (IsPrimary=True)
+2026-03-17 07:37:57.675 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=2
+2026-03-17 07:37:57.676 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=2
+2026-03-17 07:37:57.678 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=2, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.678 | WARNING | CadProcessorService.Services.XmlProcessingService | No personnel nodes found for XPath: //Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.678 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.679 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Boy', LastName='Tom', FullName='Tom , Boy'
+2026-03-17 07:37:57.679 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tom , Boy' (IsPrimary=False)
+2026-03-17 07:37:57.679 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=2, IsPrimary=True, ReturnValue=0
+2026-03-17 07:37:57.680 | WARNING | CadProcessorService.Services.XmlProcessingService | No personnel nodes found for XPath: //Officer[not(//*[local-name()='PrimaryOfficer']) and not(parent::Officers)]
+2026-03-17 07:37:57.680 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Found 3 officer node(s)
+2026-03-17 07:37:57.680 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1023
+2026-03-17 07:37:57.680 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Boy', LastName='Tom', FullName='Tom , Boy'
+2026-03-17 07:37:57.681 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Tom , Boy' (IsPrimary=False)
+2026-03-17 07:37:57.683 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1023
+2026-03-17 07:37:57.683 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1023, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.683 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Brow', LastName='Well', FullName='Well, Brow'
+2026-03-17 07:37:57.683 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Well, Brow' (IsPrimary=False)
+2026-03-17 07:37:57.685 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1022
+2026-03-17 07:37:57.685 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1023, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.686 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Brow', LastName='Well', FullName='Well, Brow'
+2026-03-17 07:37:57.686 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Well, Brow' (IsPrimary=False)
+2026-03-17 07:37:57.687 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1022
+2026-03-17 07:37:57.688 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1022, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.689 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Cat', LastName='Bro', FullName='Cat Bro'
+2026-03-17 07:37:57.689 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Cat, Bro'
+2026-03-17 07:37:57.689 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Cat, Bro' (IsPrimary=False)
+2026-03-17 07:37:57.691 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1024
+2026-03-17 07:37:57.691 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1022, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.692 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Officer: FirstName='Cat', LastName='Bro', FullName='Cat Bro'
+2026-03-17 07:37:57.692 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Normalized to: 'Cat, Bro'
+2026-03-17 07:37:57.692 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Inserting: 'Cat, Bro' (IsPrimary=False)
+2026-03-17 07:37:57.693 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Found in OTIUser: OfficerID=1024
+2026-03-17 07:37:57.694 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1024, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.694 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.694 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 4
+2026-03-17 07:37:57.696 | INFORMATION | CadProcessorService.Services.XmlProcessingService |  Inserted successfully: OfficerID=1024, IsPrimary=False, ReturnValue=0
+2026-03-17 07:37:57.696 | INFORMATION | CadProcessorService.Services.XmlProcessingService | OFFICER INSERTION COMPLETE
+2026-03-17 07:37:57.697 | INFORMATION | CadProcessorService.Services.XmlProcessingService | Total officers inserted: 4
+2026-03-17 07:37:57.700 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 4 completed: test.xml
+2026-03-17 07:37:57.702 | INFORMATION | CadProcessorService.Services.ParallelPipelineExample | Worker 1 completed: test1.xml
+2026-03-17 07:38:02.159 | INFORMATION | Microsoft.Hosting.Lifetime | Application is shutting down...
