@@ -3333,3 +3333,4 @@ C:\vardagallu_jeswanth\CAD_NEWV\CAD_NEWV2 - dup\CAD_SourceCode_v2\obj\Debug\net8
 C:\vardagallu_jeswanth\CAD_NEWV\CAD_NEWV2 - dup\CAD_SourceCode_v2\obj\Debug\net8.0-windows\win-x64\CadProcessorService.pdb
 C:\vardagallu_jeswanth\CAD_NEWV\CAD_NEWV2 - dup\CAD_SourceCode_v2\obj\Debug\net8.0-windows\win-x64\CadProcessorService.genruntimeconfig.cache
 C:\vardagallu_jeswanth\CAD_NEWV\CAD_NEWV2 - dup\CAD_SourceCode_v2\obj\Debug\net8.0-windows\win-x64\ref\CadProcessorService.dll
+C:\vardagallu_jeswanth\CAD_NEWV\CAD_NEWV2 - dup\CAD_SourceCode_v2\obj\Debug\net8.0-windows\win-x64\CadProcessorService.sourcelink.json
