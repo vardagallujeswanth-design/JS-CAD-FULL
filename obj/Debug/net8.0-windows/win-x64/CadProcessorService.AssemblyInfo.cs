@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadProcessorService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29f46400b6fd104b57de12068971ff438de706c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b0c53accd2b629121246a2d9519e5763a1de25f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadProcessorService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadProcessorService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

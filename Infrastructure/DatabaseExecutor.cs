@@ -946,14 +946,98 @@ public class DatabaseExecutor
     public void DeleteProvider(int providerId)
     {
         using var conn = CreateConnection();
-        using var cmd = new SqlCommand("""
-            DELETE FROM CAD_Provider
-            WHERE ProviderId = @id
-        """, conn);
-
-        cmd.Parameters.AddWithValue("@id", providerId);
         conn.Open();
-        cmd.ExecuteNonQuery();
+        using var transaction = conn.BeginTransaction();
+        try
+        {
+            // Delete in order to avoid foreign key violations
+            // Delete service metadata first
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_ServiceMetaData
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete provider field rules
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_ProviderFieldRule
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete field mappings
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_FieldMapping
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete procedures
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_Procedure
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete provider folder config
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_ProviderFolderConfig
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete provider retry settings
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_ProviderRetrySettings
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Delete provider email settings
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_ProviderEmailSettings
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Finally delete the provider
+            using (var cmd = new SqlCommand("""
+                DELETE FROM CAD_Provider
+                WHERE ProviderId = @id
+            """, conn, transaction))
+            {
+                cmd.Parameters.AddWithValue("@id", providerId);
+                cmd.ExecuteNonQuery();
+            }
+
+            transaction.Commit();
+        }
+        catch
+        {
+            transaction.Rollback();
+            throw;
+        }
     }
 
     public DbFolderConfig? GetProviderFolders(int providerId)
