@@ -12,7 +12,7 @@ export default function Sidebar({ active, onNavigate }) {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <strong>  CAD Admin</strong>
+        <strong></strong>
       </div>
       <nav>
         {links.map((link) => (

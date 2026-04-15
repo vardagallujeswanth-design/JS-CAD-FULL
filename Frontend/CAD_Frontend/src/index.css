@@ -49,12 +49,8 @@ input,
 select,
 textarea {
   font: inherit;
-}
-
-input,
-select,
-textarea {
   outline: none;
 }
+
 
 

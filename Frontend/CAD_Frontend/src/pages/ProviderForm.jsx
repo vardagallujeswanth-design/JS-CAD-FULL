@@ -57,7 +57,7 @@ export default function ProviderForm({ application, provider, onSave, onCancel }
     <section className="page">
       <header className="page-header">
         <h1>{provider ? 'Edit provider' : 'Add provider'}</h1>
-        <p>{provider ? 'Update provider metadata on a dedicated page.' : 'Create a new provider using the separate add page.'}</p>
+        <p>{provider ? 'Update the provider data' : 'Create a new provider using the create provider button.'}</p>
       </header>
 
       <div className="panel stacked-form">

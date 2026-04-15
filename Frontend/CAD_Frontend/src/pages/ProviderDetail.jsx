@@ -311,28 +311,46 @@ return (
               No folder configuration yet. Fill in the paths below and click Save.
             </p>
           )}
-          <table>
-            <thead>
-              <tr>
-                <th>Source folder</th>
-                <th>Done folder</th>
-                <th>Error folder</th>
-                <th>Retry folder</th>
-                <th>Other agency</th>
-                <th>Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><input value={folders.sourceFolder || ''} onChange={(e) => handleFolderChange('sourceFolder', e.target.value)} /></td>
-                <td><input value={folders.doneFolder || ''} onChange={(e) => handleFolderChange('doneFolder', e.target.value)} /></td>
-                <td><input value={folders.errorFolder || ''} onChange={(e) => handleFolderChange('errorFolder', e.target.value)} /></td>
-                <td><input value={folders.retryFolder || ''} onChange={(e) => handleFolderChange('retryFolder', e.target.value)} /></td>
-                <td><input value={folders.otherAgencyFolder || ''} onChange={(e) => handleFolderChange('otherAgencyFolder', e.target.value)} /></td>
-                <td><button type="button" className="primary" onClick={saveFolders}>Save</button></td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="folder-settings-form">
+            <label>
+              Source folder
+              <input
+                value={folders.sourceFolder || ''}
+                onChange={(e) => handleFolderChange('sourceFolder', e.target.value)}
+              />
+            </label>
+            <label>
+              Done folder
+              <input
+                value={folders.doneFolder || ''}
+                onChange={(e) => handleFolderChange('doneFolder', e.target.value)}
+              />
+            </label>
+            <label>
+              Error folder
+              <input
+                value={folders.errorFolder || ''}
+                onChange={(e) => handleFolderChange('errorFolder', e.target.value)}
+              />
+            </label>
+            <label>
+              Retry folder
+              <input
+                value={folders.retryFolder || ''}
+                onChange={(e) => handleFolderChange('retryFolder', e.target.value)}
+              />
+            </label>
+            <label>
+              Other agency
+              <input
+                value={folders.otherAgencyFolder || ''}
+                onChange={(e) => handleFolderChange('otherAgencyFolder', e.target.value)}
+              />
+            </label>
+            <div className="form-actions">
+              <button type="button" className="primary" onClick={saveFolders}>Save</button>
+            </div>
+          </div>
         </div>
       )}
 
