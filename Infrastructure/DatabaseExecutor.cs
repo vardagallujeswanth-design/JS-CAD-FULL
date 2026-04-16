@@ -763,7 +763,7 @@ public class DatabaseExecutor
             SELECT CAD_ServiceMetaDataId, ApplicationId, ProviderId, OperatorType, Value, ORINum, IsActive, CreatedBy, CreatedDate, UpdatedBy, UpdatedDate
             FROM CAD_ServiceMetaData
             WHERE ProviderId = @providerId
-              AND IsActive = 1
+              
         """, conn);
 
         cmd.Parameters.AddWithValue("@providerId", providerId);
@@ -836,22 +836,19 @@ public class DatabaseExecutor
         return insertedId;
     }
 
-    public void DeleteProviderServiceMetaData(int serviceMetaDataId)
-    {
-        using var conn = CreateConnection();
-        using var cmd = new SqlCommand("""
-            UPDATE CAD_ServiceMetaData
-            SET IsActive = 0,
-                UpdatedBy = 0,
-                UpdatedDate = GETDATE()
-            WHERE CAD_ServiceMetaDataId = @id
-        """, conn);
+  public void DeleteProviderServiceMetaData(int serviceMetaDataId)
+{
+    using var conn = CreateConnection();
+    using var cmd = new SqlCommand(@"
+        DELETE FROM CAD_ServiceMetaData
+        WHERE CAD_ServiceMetaDataId = @id
+    ", conn);
 
-        cmd.Parameters.AddWithValue("@id", serviceMetaDataId);
-        conn.Open();
-        cmd.ExecuteNonQuery();
-    }
+    cmd.Parameters.AddWithValue("@id", serviceMetaDataId);
 
+    conn.Open();
+    cmd.ExecuteNonQuery();
+}
     public List<DbProviderConfig> GetProviders(int applicationId)
     {
         var list = new List<DbProviderConfig>();
@@ -963,7 +960,7 @@ public class DatabaseExecutor
 
             // Delete provider field rules
             using (var cmd = new SqlCommand("""
-                DELETE FROM CAD_ProviderFieldRule
+                DELETE FROM CAD_ProviderFieldRules
                 WHERE ProviderId = @id
             """, conn, transaction))
             {
@@ -1003,7 +1000,7 @@ public class DatabaseExecutor
 
             // Delete provider retry settings
             using (var cmd = new SqlCommand("""
-                DELETE FROM CAD_ProviderRetrySettings
+                DELETE FROM CAD_RetrySettings
                 WHERE ProviderId = @id
             """, conn, transaction))
             {
@@ -1013,7 +1010,7 @@ public class DatabaseExecutor
 
             // Delete provider email settings
             using (var cmd = new SqlCommand("""
-                DELETE FROM CAD_ProviderEmailSettings
+                DELETE FROM CAD_EmailSettings
                 WHERE ProviderId = @id
             """, conn, transaction))
             {

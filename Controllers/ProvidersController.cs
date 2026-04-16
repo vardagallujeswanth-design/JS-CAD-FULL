@@ -141,6 +141,20 @@ public class ProvidersController : ControllerBase
         return Ok(_databaseExecutor.GetProviderServiceMetaData(providerId));
     }
 
+
+[HttpDelete("providers/{providerId:int}/metadata/{metadataid:int}")]
+public IActionResult Deletemetadata(int providerId, int metadataid)
+{
+    _databaseExecutor.DeleteProviderServiceMetaData(metadataid);
+    return NoContent();
+}
+
+
+
+
+
+
+
     [HttpPut("providers/{providerId:int}/metadata")]
     public IActionResult SaveProviderMetadata(int providerId, ServiceMetaDataDto metadata)
     {

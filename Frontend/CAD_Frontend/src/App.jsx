@@ -274,7 +274,7 @@ return (
       <header className="app-toolbar">
         <div>
           <div className="app-title">CAD Application Settings</div>
-          <div className="app-subtitle">Manage applications, providers and service settings.</div>
+          <div className="app-subtitle">Manage applications, providers and service settings</div>
         </div>
         <div className="toolbar-actions">
           <div

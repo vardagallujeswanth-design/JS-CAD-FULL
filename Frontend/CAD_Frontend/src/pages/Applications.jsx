@@ -23,7 +23,8 @@ export default function Applications({ applications, selectedApplication, onSele
       <header className="page-header">
         <div>
           <h1>Applications</h1>
-          <p>Manage the application settings used by the file processing service.</p>
+          <p>Manage the application settings used by the file processing service</p>
+          <h2>Select the Application</h2>
         </div>
       </header>
 
@@ -91,6 +92,13 @@ export default function Applications({ applications, selectedApplication, onSele
           </form>
         </div>
       </div>
+      {selectedApplication && (
+  <footer>
+    <h2>
+      Select the Provider for {selectedApplication.applicationName}
+    </h2>
+  </footer>
+)}
     </section>
   );
 }
