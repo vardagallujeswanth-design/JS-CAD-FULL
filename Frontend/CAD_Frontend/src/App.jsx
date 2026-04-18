@@ -158,7 +158,7 @@ function App() {
     }
   };
 
-  // 🔥 FIXED NAVIGATION HERE
+
   const handleProviderSelect = (prov) => {
     setProvider(prov);
     navigate('/provider-detail');

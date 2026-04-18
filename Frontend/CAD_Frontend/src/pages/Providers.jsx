@@ -11,7 +11,7 @@ export default function Providers({
 }) {
   const navigate = useNavigate();
 
-  // ✅ KEEP OLD BEHAVIOR
+
   if (!application) {
     return (
       <section className="page">
@@ -115,8 +115,8 @@ export default function Providers({
                       padding: '7px',
                     }}
                     onClick={() => {
-                      onSelect(prov);          // ✅ same logic
-                      navigate('/provider-detail'); // ✅ navigation only
+                      onSelect(prov);        
+                      navigate('/provider-detail');
                     }}
                   >
                     View settings
