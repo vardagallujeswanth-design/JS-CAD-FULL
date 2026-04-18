@@ -3788,11 +3788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 -\\CAD_SourceCode_v2\\CadProcessorService.csproj",
+      "projectUniqueName": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 - -publish test\\CAD_SourceCode_v2\\CadProcessorService.csproj",
       "projectName": "CadProcessorService",
-      "projectPath": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 -\\CAD_SourceCode_v2\\CadProcessorService.csproj",
+      "projectPath": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 - -publish test\\CAD_SourceCode_v2\\CadProcessorService.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 -\\CAD_SourceCode_v2\\obj\\",
+      "outputPath": "C:\\vardagallu_jeswanth\\CAD_NEWV\\CAD_NEWV2 - -publish test\\CAD_SourceCode_v2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

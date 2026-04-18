@@ -73,7 +73,7 @@ export default function Applications({ applications, selectedApplication, onSele
               <input
                 value={draft.applicationCode}
                 onChange={(e) => setDraft((p) => ({ ...p, applicationCode: e.target.value }))}
-                placeholder="e.g. CAD_APPLICATION"
+                placeholder="Application Code"
                 required
               />
             </label>
@@ -82,7 +82,7 @@ export default function Applications({ applications, selectedApplication, onSele
               <input
                 value={draft.applicationName}
                 onChange={(e) => setDraft((p) => ({ ...p, applicationName: e.target.value }))}
-                placeholder="e.g. CAD Internal Testing"
+                placeholder="Application Name"
               />
             </label>
             <div className="form-actions">

@@ -15,6 +15,7 @@ public class Program
     public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Configuration["urls"] = "http://0.0.0.0:5000";
 
 #if !DEBUG
         // Required if running as Windows Service

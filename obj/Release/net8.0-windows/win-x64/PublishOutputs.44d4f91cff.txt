@@ -1,4 +1,0 @@
-C:\CAD_Services\appsettings.json
-C:\CAD_Services\CadProcessorService.pdb
-C:\CAD_Services\sni.dll
-C:\CAD_Services\CadProcessorService.exe
