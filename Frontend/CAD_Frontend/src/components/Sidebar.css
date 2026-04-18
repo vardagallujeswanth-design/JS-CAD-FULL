@@ -1,16 +1,27 @@
-﻿.sidebar {
-  width: 280px;
-  min-height: 100vh;
-  padding: 24px 18px;
-  background: #7c3aed;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  border-right: 0.5px solid rgba(255,255,255,.06);
-  flex-shrink: 0;
+﻿
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: white;
+  padding: 20px;
 }
 
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar button.active {
+  background: #2563eb;
+  border-radius: 6px;
+}
 .sidebar-brand {
   font-size: 18px;
   font-weight: 800;
@@ -26,6 +37,18 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+.sidebar {
+  width: 280px;
+  min-height: 100vh;
+  padding: 24px 18px;
+  background: #7c3aed;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-right: 0.5px solid rgba(255,255,255,.06);
+  flex-shrink: 0;
 }
 
 .sidebar button {

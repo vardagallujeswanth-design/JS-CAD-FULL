@@ -1,10 +1,23 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export default function Applications({ applications, selectedApplication, onSelect, onSave, onDelete }) {
-  const [draft, setDraft] = useState({ applicationCode: '', applicationName: '' });
+export default function Applications({
+  applications,
+  selectedApplication,
+  onSelect,
+  onSave,
+  onDelete,
+}) {
+  const navigate = useNavigate();
+
+  const [draft, setDraft] = useState({
+    applicationCode: '',
+    applicationName: '',
+  });
 
   useEffect(() => {
     if (!selectedApplication) return;
+
     setDraft({
       applicationCode: selectedApplication.applicationCode || '',
       applicationName: selectedApplication.applicationName || '',
@@ -18,6 +31,13 @@ export default function Applications({ applications, selectedApplication, onSele
     setDraft({ applicationCode: '', applicationName: '' });
   };
 
+  const handleSelect = (app) => {
+    onSelect(app);
+
+    // 🔥 navigate to providers after selecting app
+    navigate('/providers');
+  };
+
   return (
     <section className="page">
       <header className="page-header">
@@ -29,8 +49,10 @@ export default function Applications({ applications, selectedApplication, onSele
       </header>
 
       <div className="page-grid">
+        {/* LEFT SIDE - TABLE */}
         <div className="panel">
           <h2>Application list</h2>
+
           <table>
             <thead>
               <tr>
@@ -39,23 +61,49 @@ export default function Applications({ applications, selectedApplication, onSele
                 <th>Action</th>
               </tr>
             </thead>
+
             <tbody>
               {applications.length === 0 ? (
                 <tr>
-                  <td colSpan="3" style={{ color: '#9ca3af', fontStyle: 'italic' }}>No applications found.</td>
+                  <td colSpan="3" style={{ color: '#9ca3af', fontStyle: 'italic' }}>
+                    No applications found.
+                  </td>
                 </tr>
               ) : (
                 applications.map((app) => (
                   <tr
                     key={app.applicationId}
-                    className={selectedApplication?.applicationId === app.applicationId ? 'selected-row' : ''}
+                    className={
+                      selectedApplication?.applicationId === app.applicationId
+                        ? 'selected-row'
+                        : ''
+                    }
                   >
-                    <td style={{ fontWeight: 500 }}>{app.applicationCode}</td>
-                    <td style={{ color: '#6b7280' }}>{app.applicationName || '—'}</td>
+                    <td style={{ fontWeight: 500 }}>
+                      {app.applicationCode}
+                    </td>
+
+                    <td style={{ color: '#6b7280' }}>
+                      {app.applicationName || '—'}
+                    </td>
+
                     <td>
                       <div className="action-buttons">
-                        <button type="button" className="primary" onClick={() => onSelect(app)}>Select</button>
-                        <button type="button" className="danger" onClick={() => onDelete(app.applicationId)}>Delete</button>
+                        <button
+                          type="button"
+                          className="primary"
+                          onClick={() => handleSelect(app)}
+                        >
+                          Select
+                        </button>
+
+                        <button
+                          type="button"
+                          className="danger"
+                          onClick={() => onDelete(app.applicationId)}
+                        >
+                          Delete
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -65,40 +113,71 @@ export default function Applications({ applications, selectedApplication, onSele
           </table>
         </div>
 
+        {/* RIGHT SIDE - FORM */}
         <div className="panel">
-          <h2>{draft.applicationId ? 'Edit application' : 'New application'}</h2>
+          <h2>
+            {draft.applicationId ? 'Edit application' : 'New application'}
+          </h2>
+
           <form onSubmit={handleSubmit} className="stacked-form">
             <label>
               Code
               <input
                 value={draft.applicationCode}
-                onChange={(e) => setDraft((p) => ({ ...p, applicationCode: e.target.value }))}
+                onChange={(e) =>
+                  setDraft((p) => ({
+                    ...p,
+                    applicationCode: e.target.value,
+                  }))
+                }
                 placeholder="Application Code"
                 required
               />
             </label>
+
             <label>
               Name
               <input
                 value={draft.applicationName}
-                onChange={(e) => setDraft((p) => ({ ...p, applicationName: e.target.value }))}
+                onChange={(e) =>
+                  setDraft((p) => ({
+                    ...p,
+                    applicationName: e.target.value,
+                  }))
+                }
                 placeholder="Application Name"
               />
             </label>
+
             <div className="form-actions">
-              <button type="submit" className="primary">Save</button>
-              <button type="button" onClick={() => setDraft({ applicationCode: '', applicationName: '' })}>Reset</button>
+              <button type="submit" className="primary">
+                Save
+              </button>
+
+              <button
+                type="button"
+                onClick={() =>
+                  setDraft({
+                    applicationCode: '',
+                    applicationName: '',
+                  })
+                }
+              >
+                Reset
+              </button>
             </div>
           </form>
         </div>
       </div>
+
+      {/* FOOTER */}
       {selectedApplication && (
-  <footer>
-    <h2>
-      Select the Provider for {selectedApplication.applicationName}
-    </h2>
-  </footer>
-)}
+        <footer>
+          <h2>
+            Select the Provider for {selectedApplication.applicationName}
+          </h2>
+        </footer>
+      )}
     </section>
   );
 }
