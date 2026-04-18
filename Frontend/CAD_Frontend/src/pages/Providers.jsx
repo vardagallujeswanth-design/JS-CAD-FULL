@@ -12,7 +12,7 @@ export default function Providers({
 }) {
   const navigate = useNavigate();
 
-  // ✅ AUTO REDIRECT if no application selected
+
   useEffect(() => {
     if (!application) {
       navigate('/applications');
@@ -113,8 +113,8 @@ export default function Providers({
                       padding: '7px',
                     }}
                     onClick={() => {
-                      onSelect(prov);         // ✅ sets provider
-                      navigate('/provider-detail'); // 🔥 NAVIGATION FIX
+                      onSelect(prov);         
+                      navigate('/provider-detail');
                     }}
                   >
                     View settings

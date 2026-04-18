@@ -130,7 +130,7 @@ function App() {
         setProvider(saved);
       }
 
-      navigate('/providers'); // ✅ after save go back
+      navigate('/providers'); 
     } catch {
       setError('Could not save provider.');
     } finally {
