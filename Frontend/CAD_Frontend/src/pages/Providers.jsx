@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function Providers({
@@ -12,15 +11,18 @@ export default function Providers({
 }) {
   const navigate = useNavigate();
 
-
-  useEffect(() => {
-    if (!application) {
-      navigate('/applications');
-    }
-  }, [application]);
-
+  // ✅ KEEP OLD BEHAVIOR
   if (!application) {
-    return null; // prevent flicker
+    return (
+      <section className="page">
+        <header className="page-header">
+          <div>
+            <h1>Providers</h1>
+            <p>Select an application first to view and manage providers.</p>
+          </div>
+        </header>
+      </section>
+    );
   }
 
   const getInitials = (code) => code?.slice(0, 2).toUpperCase() || '??';
@@ -113,8 +115,8 @@ export default function Providers({
                       padding: '7px',
                     }}
                     onClick={() => {
-                      onSelect(prov);         
-                      navigate('/provider-detail');
+                      onSelect(prov);          // ✅ same logic
+                      navigate('/provider-detail'); // ✅ navigation only
                     }}
                   >
                     View settings
